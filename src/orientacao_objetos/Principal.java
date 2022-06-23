@@ -12,7 +12,7 @@ public class Principal {
 		livro.autor = "Fábio Reis";
 		livro.dataPub = "20/04/2017";
 		
-		System.out.printf("A data de publicação do livro %s é %s", livro.nome, livro.dataPub);
+		livro.dadosLivro();
 	}
 
 }
